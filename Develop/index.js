@@ -28,7 +28,23 @@ const questions = [
     {
         type: 'input',
         name: 'license',
-        message: 'Please provide licenses for your project.'
+        message: 'Please provide licenses for your project.',
+        choices: ['![APM](https://img.shields.io/badge/APM-MIT-green)',
+            '![AUR](https://img.shields.io/badge/AUR-Apache-blue)',
+            '![Bower](https://img.shields.io/badge/Bower-MIT-green)',
+            '![Cocoapods](https://img.shields.io/badge/Cocoapods-MIT-%23373737)',
+            '![Conda](https://img.shields.io/badge/Conda-MIT-green)',
+            '![CPAN](https://img.shields.io/badge/CPAN-lgpl__2__1-blue)',
+            '![CRAN/METACRAN](https://img.shields.io/badge/CRAN-GPL%20(%3E%3D%202)-blue)',
+            '![Crates.io](https://img.shields.io/badge/Crates-MIT%2FApache--2.0-blue)',
+            '![CTAN](https://img.shields.io/badge/CTAN-ppl1.3c%2C%20ofl-lightgrey)',
+            '![DUB](https://img.shields.io/badge/DUB-MIT-green)',
+            '![Eclipse](https://img.shields.io/badge/Eclipse-GPL-blue)',
+            '![Github](https://img.shields.io/badge/Github-MIT-green)',
+            '![Hex](https://img.shields.io/badge/Hex-Apache%202-blue)',
+            '![NPM](https://img.shields.io/badge/NPM-MIT-green)',
+            '![Packagist](https://img.shields.io/badge/Packagist-MIT-green)',
+            '![PyPI](https://img.shields.io/badge/PyPI-BSD-green)']
     },
     {
         type: 'input',
@@ -43,15 +59,34 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-}
+const writeFile = fileContent => {
+
+    const readmeData = generateMarkdown(fileContent); 
+
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./README.md', readmeData, err => {
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'ReadMe Created!'
+            });
+        });
+    });
+};
 
 // function to initialize program
-function init() {
-
-}
+const init = () => {
+    questions()
+    .then(questionData => {
+        return writeFile(questionData);
+    });
+    // .then(data => {
+    //     return generateMarkdown(data);
+    // });
+};
 
 // function call to initialize program
 init();
-
-//test1

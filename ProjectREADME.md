@@ -1,31 +1,31 @@
 
   # README Generator
   ## Table of Contents
-  [Description](#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contributors](#contributors)
-  [Test](#test)
-  [Licence](#licence)
-  [Questions](#Questions)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#Usage)
+  * [Contributors](#contributors)
+  * [Test](#test)
+  * [License](#license)
+  * [Questions](#Questions)
 
   ## Description
-  This application will generate a READMe after the user answers the prompted questions.
+  This application will generate a README after the user answers the prompted questions.
 
-  ## Installation Instructions
+  ## Installation
   Install NPM and Node.js
 
-  ## Usage Information
-  Run node index.js and answer the prompted questions. After all questions have been answered a README will be generated
+  ## Usage
+  Run node index.js and answer the prompted questions. After all questions have been answered a README file bill be generated.
 
   ## Contribution 
   Thomas Nguyen
 
-  ## Test Instructions
+  ## Test
   This is a test
 
   ## Licence
-  ![Eclipse](https://img.shields.io/badge/Eclipse-GPL-blue)
+  ![APM](https://img.shields.io/badge/APM-MIT-green)
   
   ## Questions
   ### thomasnguyen546@gmail.com

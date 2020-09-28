@@ -101,10 +101,6 @@ const init = () => {
     .then(questionData => {
         return writeFile(questionData);
     });
-    // .then(data => {
-    //     return generateMarkdown(data);
-    // });
 };
 
-// function call to initialize program
 init();

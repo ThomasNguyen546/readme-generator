@@ -1,13 +1,13 @@
 
   # README Generator
   ## Table of Contents
-  [Description](#description)
-  [Installation](#installation)
-  [Usage](#usage)
-  [Contributors](#contributors)
-  [Test](#test)
-  [Licence](#licence)
-  [Questions](#Questions)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributors](#contributors)
+  * [Test](#test)
+  * [Licence](#licence)
+  * [Questions](#Questions)
 
   ## Description
   This application will generate a README after the user answers the prompted questions.

@@ -2,11 +2,11 @@
   # README Generator
   ## Table of Contents
   * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Contributors](#contributors)
-  * [Test](#test)
-  * [Licence](#licence)
+  * [Installation](#installation instructions)
+  * [Usage](usage information)
+  * [Contribution](#contribution)
+  * [Test](#test instructions)
+  * [Licence](#license)
   * [Questions](#Questions)
 
   ## Description
@@ -27,7 +27,7 @@
   ## Test Instructions
   This is a test
 
-  ## Licence
+  ## License
   ![APM](https://img.shields.io/badge/APM-MIT-green)
   
   ## Questions

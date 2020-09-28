@@ -82,7 +82,7 @@ const writeFile = fileContent => {
     const readmeData = generateMarkdown(fileContent); 
 
     return new Promise((resolve, reject) => {
-        fs.writeFile('./README.md', readmeData, err => {
+        fs.writeFile('./ProjectREADME.md', readmeData, err => {
             if (err) {
                 reject(err);
                 return;

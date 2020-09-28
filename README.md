@@ -19,8 +19,8 @@
   Rune node index.js and answer the prompted questions. After all questions have been answered a README will be generated
 
   ## Video Link
+  https://drive.google.com/file/d/1axaIUmyf4b2Q4Wv6uuvJOFxmWWbdMYP4/view
 
-  
   ## Contribution 
   Thomas Nguyen
 

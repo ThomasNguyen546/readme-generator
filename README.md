@@ -3,10 +3,10 @@
   ## Table of Contents
   * [Description](#description)
   * [Screenshot](#screenshot)
-  * [Installation](#installation instructions)
-  * [Usage](usage information)
+  * [Installation](#installation)
+  * [Usage](#usage)
   * [Contribution](#contribution)
-  * [Test](#test instructions)
+  * [Test](#test)
   * [Licence](#license)
   * [Questions](#Questions)
 

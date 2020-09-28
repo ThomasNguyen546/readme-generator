@@ -2,6 +2,7 @@
   # README Generator
   ## Table of Contents
   * [Description](#description)
+  * [Screenshot](#screenshot)
   * [Installation](#installation instructions)
   * [Usage](usage information)
   * [Contribution](#contribution)
@@ -11,6 +12,9 @@
 
   ## Description
   This application will generate a README after the user answers the prompted questions.
+
+  ## Screenshot
+  ![](Mockup.png)
 
   ## Installation Instructions
   Insall NPM and Node.js
